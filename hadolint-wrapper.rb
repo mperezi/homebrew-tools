@@ -6,6 +6,12 @@ class HadolintWrapper < Formula
   url "https://github.com/mperezi/hadolint-wrapper/releases/download/v1.2/hadolintw-1.2.0-brew.tar.gz"
   sha256 "598d17cbb1109ad22a8d27b3c09722c02a193f8477eb9092043195db2052e856"
 
+  bottle do
+    root_url "https://dl.bintray.com/mperezi/bottles-tools"
+    cellar :any_skip_relocation
+    sha256 "219c083273d6d1838d6aaa2a04a69bc7213216b620350b0f67ce8315bb2c775d" => :catalina
+  end
+
   depends_on "hadolint"
   depends_on "python"
 
