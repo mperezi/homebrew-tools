@@ -10,6 +10,7 @@ class HadolintWrapper < Formula
     root_url "https://dl.bintray.com/mperezi/bottles-tools"
     cellar :any_skip_relocation
     sha256 "219c083273d6d1838d6aaa2a04a69bc7213216b620350b0f67ce8315bb2c775d" => :catalina
+    sha256 "84dc2d555f10fdede286782eb53cebcfbd09a3c634971ac0150a5b6e6a4ab3a4" => :high_sierra
   end
 
   depends_on "hadolint"
