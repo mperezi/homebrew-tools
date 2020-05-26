@@ -3,14 +3,14 @@ class HadolintWrapper < Formula
 
   desc "Pretty output for hadolint"
   homepage "https://github.com/mperezi/hadolint-wrapper"
-  url "https://github.com/mperezi/hadolint-wrapper/releases/download/v1.2/hadolintw-1.2.0-brew.tar.gz"
-  sha256 "598d17cbb1109ad22a8d27b3c09722c02a193f8477eb9092043195db2052e856"
+  url "https://github.com/mperezi/hadolint-wrapper/releases/download/v1.2.1/hadolintw-1.2.1-brew.tar.gz"
+  sha256 "62ade57dea14d815ce87f99d65aaa19df7df1bd8d01c0d0b39e43c3b8c0167f0"
 
   bottle do
     root_url "https://dl.bintray.com/mperezi/bottles-tools"
     cellar :any_skip_relocation
-    sha256 "219c083273d6d1838d6aaa2a04a69bc7213216b620350b0f67ce8315bb2c775d" => :catalina
-    sha256 "84dc2d555f10fdede286782eb53cebcfbd09a3c634971ac0150a5b6e6a4ab3a4" => :high_sierra
+    sha256 "c13d023ac12c745d630fc95f87c9c25a48374bbc2a4384d3d9b3aeaeda6a7eaa" => :catalina
+    sha256 "dd28e21488b2b9995f1e86250f562c67bc29f24044603834f3ca1b09332cdfe8" => :high_sierra
   end
 
   depends_on "hadolint"
